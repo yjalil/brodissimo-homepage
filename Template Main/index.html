@@ -16,7 +16,13 @@
     <link rel="stylesheet" href="assets/css/tiny-slider.css" />
     <link rel="stylesheet" href="assets/css/glightbox.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
-
+    <style>
+      .image img {
+        height: 120vh;
+  background-size: cover;
+  background-position: 100% 68%;
+      }
+    </style>
 </head>
 
 <body>
@@ -199,7 +205,7 @@ background-position: 100% 68%;
           <div class="row align-items-center">
               <div class="col-lg-4 col-12">
                   <div class="image wow fadeInLeft" data-wow-delay=".3s">
-                      <img class="main-image" src="https://source.unsplash.com/800x1200/?embroidery,booking,creative" alt="Plateforme de Booking">
+                      <img src="https://source.unsplash.com/800x1200/?embroidery,booking,creative" alt="Plateforme de Booking">
                   </div>
               </div>
               <div class="col-lg-8 col-12">
@@ -367,24 +373,21 @@ background-position: 100% 68%;
 <!-- End SAVOIR FAIRE Area -->
 
 
-<!-- Start Intro Video Area -->
+<!-- Début de la zone Vidéo d'Introduction -->
 <section class="intro-video-area section">
   <div class="container">
       <div class="row">
           <div class="col-12">
               <div class="inner-content-head">
                   <div class="inner-content">
-                      <!-- <img class="background-image" src="https://unsplash.com/fr/photos/photo-de-serrure-de-pied-de-machine-a-coudre-grise-avec-du-fil-sur-tissu-noir-jNKv4QohAk0" alt="background-image"> -->
-                      <!-- <img class="shape2" src="votre/nouveau/chemin/vers/shape2.svg" alt="#"> -->
                       <div class="section-title">
                           <span class="wow zoomIn" data-wow-delay=".2s">Créez votre propre expérience</span>
                           <h2 class="wow fadeInUp" data-wow-delay=".4s">Regardez notre vidéo d'introduction</h2>
                           <p class="wow fadeInUp" data-wow-delay=".6s">Découvrez le processus de broderie personnalisée chez Brodessimo. Chaque pièce est une œuvre d'art.</p>
                       </div>
-                      <div class="intro-video-play">
+                      <div class="intro-video-play" style="background-image: url('assets/images/logo/alexander-andrews-jNKv4QohAk0-unsplash.jpg');">
                           <div class="play-thumb wow zoomIn" data-wow-delay=".2s">
-                              <a href="template main/assets/images/video/vid.mov"
-                                  class="glightbox video"><i class="lni lni-play"></i></a>
+                              <a href="assets/images/video/vid.mp4" class="glightbox video"><i class="lni lni-play"></i></a>
                           </div>
                       </div>
                   </div>
@@ -393,7 +396,8 @@ background-position: 100% 68%;
       </div>
   </div>
 </section>
-<!-- End Intro Video Area -->
+<!-- Fin de la zone Vidéo d'Introduction -->
+
 
 
     <!-- Start Features Area -->
@@ -465,8 +469,6 @@ background-position: 100% 68%;
                 </div>
             </div>
             <div class="row">
-                <!-- ... (autre contenu HTML) ... -->
-
 <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s">
   <div class="single-service">
       <div class="main-icon">
@@ -897,7 +899,7 @@ background-position: 100% 68%;
                 <div class="col-lg-6 col-md-7 col-12">
                     <div class="text">
                         <h2>Demandez Votre Devis Personnalisé
-                            <br> pour votre création sur mesure
+                            <br> pour une création sur mesure
                         </h2>
                     </div>
                 </div>
@@ -1182,7 +1184,7 @@ background-position: 100% 68%;
             'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
             'type': 'video',
             'source': 'youtube', //vimeo, youtube or local
-            'width': 900,
+            'width': 200,
             'autoplayVideos': true,
         });
 
